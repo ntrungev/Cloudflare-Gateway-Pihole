@@ -8,7 +8,7 @@ jobs:
   run:
     name: Cloudflare Gateway
     permissions: write-all
-    runs-on: ubuntu-latest
+    runs-on: macos-15
     timeout-minutes: 15
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
